@@ -1,0 +1,21 @@
+.header{
+  text-align: center;
+  background-color: rgb(8, 7, 2);
+font-size: 50px;
+}
+
+sub{
+  font-size: 30px ;
+}
+    
+h1{
+  font-size: 100px;
+  color:rgb(241, 226, 226);
+}
+body { 
+  background-image: url(b2.jpeg);
+}
+img{
+  width: 400px;
+  align-self: center;
+}
