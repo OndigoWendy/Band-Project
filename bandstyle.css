@@ -45,36 +45,35 @@ body {
 }
 
 .slide:nth-child(1) {
-  background-image:url(savara.jpeg);
+  background-image:url(mwanzo.png);
   height: 510px;
   width: 728px;
 }
 
 .slide:nth-child(2) {
-  background-image: url(bien.jpeg);
+  background-image: url(solfilosofia2011.png);
   height: 510px;
   width: 728px;
 }
 
 .slide:nth-child(3) {
- background-image: url(chimano.jpeg);
+ background-image: url(LiveanddieinAfrika.png);
  height: 510px;
   width: 728px;
 }
 .slide:nth-child(4) {
-  background-image: url(ff2.jpeg);
+  background-image: url(Afrikansauce.png);
   height: 510px;
   width: 728px;
-
 }
 .slide:nth-child(5) {
-  background-image: url(ff2.jpeg);
+  background-image: url(Midnighttrain.png);
   height: 510px;
   width: 728px;
 
 }
 
-.slide-number {
+.slide-title{
   color: #000;
  image-orientation: center;
 }
@@ -107,10 +106,16 @@ div.column3{
 div.column4{
   float: left;
   width: 400px;
-  height: 400px;
-}
+  height: 400px;}
+
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+h3{
+  color: red;
+  text-align: center;
+  background-color:red;
+  font-size: larger;
 }
