@@ -13,7 +13,7 @@ h1{
   color:rgb(241, 226, 226);
 }
 body { 
-  background-image: url(BG.jpeg);
+  background-image: url(SAUTISOL_files/BG.jpeg);
 }
 
 p{font-size: large;
@@ -45,29 +45,29 @@ body {
 }
 
 .slide:nth-child(1) {
-  background-image:url(mwanzo.png);
+  background-image:url(SAUTISOL_files/mwanzo.png);
   height: 510px;
   width: 728px;
 }
 
 .slide:nth-child(2) {
-  background-image: url(solfilosofia2011.png);
+  background-image: url(SAUTISOL_files/solfilosofia2011.png);
   height: 510px;
   width: 728px;
 }
 
 .slide:nth-child(3) {
- background-image: url(LiveanddieinAfrika.png);
+ background-image: url(SAUTISOL_files/LiveanddieinAfrika.png);
  height: 510px;
   width: 728px;
 }
 .slide:nth-child(4) {
-  background-image: url(Afrikansauce.png);
+  background-image: url(SAUTISOL_files/Afrikansauce.png);
   height: 510px;
   width: 728px;
 }
 .slide:nth-child(5) {
-  background-image: url(Midnighttrain.png);
+  background-image: url(SAUTISOL_files/Midnighttrain.png);
   height: 510px;
   width: 728px;
 
