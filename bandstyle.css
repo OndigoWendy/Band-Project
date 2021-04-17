@@ -5,7 +5,7 @@ font-size: 50px;;
 }
 
 sub{
-  font-size: 30px ;
+  font-size: 20px ;
 }
     
 h1{
@@ -13,7 +13,7 @@ h1{
   color:rgb(241, 226, 226);
 }
 body { 
-  background-image: url(b2.jpeg);
+  background-image: url(BG.jpeg);
 }
 
 p{font-size: large;
@@ -89,3 +89,28 @@ body {
   90% {margin-left: -2184px;}
 }
 
+div.column1{
+  float: left;
+  width: 400px;
+  height: 400px;
+}
+div.column2{
+  float: left;
+  width: 400px;
+  height: 400px;
+}
+div.column3{
+  float: left;
+  width: 400px;
+  height: 400px;
+}
+div.column4{
+  float: left;
+  width: 400px;
+  height: 400px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
