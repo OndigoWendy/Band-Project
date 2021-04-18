@@ -1,34 +1,81 @@
+/*Styling the header*/
 .header{
   text-align: center;
 font-size: 50px;;
 }
-
 sub{
   font-size: 20px ;
 }
-    
+
+/*Styling the body*/
+body { 
+  background-image: url(SAUTISOL_files/b.jpeg);
+  font-family: Helvetica, sans-serif;
+  padding: 5%;
+}
+   
+/*Styling headings*/
 h1{
   font-size: 100px;
   color:rgb(241, 226, 226);
 }
-body { 
-  background-image: url(SAUTISOL_files/b.jpeg);
-}
+
 h2{
   color: aliceblue;
 }
+h3{
+  color: red;
+  text-align: center;
+  background-color:red;
+  font-size: larger;
+}
 
+
+/*Styling paragraphs*/
 p{font-size: large;
 background-color: wheat;
 font-weight: 700;
 }
 
-body {
-  font-family: Helvetica, sans-serif;
-  padding: 5%;
-
+/*Styling columns for band members*/
+div.column1{
+  float: left;
+  width: 400px;
+  height: 400px;
+  padding: 2%;
+}
+div.column2{
+  float: left;
+  width: 400px;
+  height: 400px;
+  padding: 2%;
+}
+div.column3{
+  float: left;
+  width: 400px;
+  height: 400px;
+  padding: 2%;
+}
+div.column4{
+  float: left;
+  width: 400px;
+  height: 400px;
+  padding: 2%;
 }
 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Styling band images under why i love sautisol*/
+.box{
+  float: left;
+  padding: 1%;
+}
+
+/*Styling the slideshow*/
 #slideshow {
   image-orientation: center;
   overflow: hidden;
@@ -92,44 +139,7 @@ body {
   90% {margin-left: -2184px;}
 }
 
-div.column1{
-  float: left;
-  width: 400px;
-  height: 400px;
-}
-div.column2{
-  float: left;
-  width: 400px;
-  height: 400px;
-}
-div.column3{
-  float: left;
-  width: 400px;
-  height: 400px;
-}
-div.column4{
-  float: left;
-  width: 400px;
-  height: 400px;}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.box{
-  float: left;
-}
-h3{
-  color: red;
-  text-align: center;
-  background-color:red;
-  font-size: larger;
-}
-.favorites{
-  align-content: center;
-}
-
+/*Styling background for instagram links*/
 .links{
   background-color: black;
 }
