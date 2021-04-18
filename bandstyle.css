@@ -12,12 +12,16 @@ h1{
   color:rgb(241, 226, 226);
 }
 body { 
-  background-image: url(SAUTISOL_files/BG.jpeg);
+  background-image: url(SAUTISOL_files/b.jpeg);
+}
+h2{
+  color: aliceblue;
 }
 
 p{font-size: large;
-background-color:transparent;
-font-weight: 700;}
+background-color: wheat;
+font-weight: 700;
+}
 
 body {
   font-family: Helvetica, sans-serif;
@@ -35,7 +39,7 @@ body {
 
 .slide-holder {
   width: 2912px;
-  -webkit-animation: slide 18s ease infinite;
+  -webkit-animation: slide 15s ease infinite;
 }
 
 .slide {
@@ -67,7 +71,7 @@ body {
   width: 728px;
 }
 .slide:nth-child(5) {
-  background-image: url(SAUTISOL_files/Midnighttrain.png);
+  background-image: url(SAUTISOL_files/Midnighttrain.jpeg);
   height: 510px;
   width: 728px;
 
@@ -124,4 +128,8 @@ h3{
 }
 .favorites{
   align-content: center;
+}
+
+.links{
+  background-color: black;
 }
