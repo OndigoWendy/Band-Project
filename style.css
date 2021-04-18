@@ -36,8 +36,8 @@ h4{
 
 /*Styling paragraphs*/
 p{font-size: large;
-background-color: wheat;
-font-weight: 700;
+background-color: rgb(241, 232, 214);
+font-weight: 600;
 }
 
 /*Styling columns for band members*/
@@ -142,7 +142,12 @@ div.column4{
   90% {margin-left: -2184px;}
 }
 
+/*Styling background for song links*/
+ol.list{
+  background-color: rgb(241, 232, 214);
+}
+
 /*Styling background for instagram links*/
-.links{
-  background-color: rgb(20, 18, 18);
+ol.links{
+  background-color:rgb(241, 232, 214);
 }
