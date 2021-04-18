@@ -113,9 +113,15 @@ div.column4{
   display: table;
   clear: both;
 }
+.box{
+  float: left;
+}
 h3{
   color: red;
   text-align: center;
   background-color:red;
   font-size: larger;
+}
+.favorites{
+  align-content: center;
 }
