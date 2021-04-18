@@ -29,6 +29,9 @@ h3{
   background-color:red;
   font-size: larger;
 }
+h4{
+  color: aliceblue;
+}
 
 
 /*Styling paragraphs*/
@@ -75,7 +78,7 @@ div.column4{
   padding: 1%;
 }
 
-/*Styling the slideshow*/
+/*Styling the slideshow using css animation*/
 #slideshow {
   image-orientation: center;
   overflow: hidden;
@@ -85,8 +88,8 @@ div.column4{
 }
 
 .slide-holder {
-  width: 2912px;
-  -webkit-animation: slide 15s ease infinite;
+  width: 3640px;
+  animation: slide 13s ease infinite;
 }
 
 .slide {
@@ -129,7 +132,7 @@ div.column4{
  image-orientation: center;
 }
 
-@-webkit-keyframes slide {
+@keyframes slide {
   20% {margin-left: 0px;}
   30% {margin-left: -728px;}
   50% {margin-left: -728px;}
